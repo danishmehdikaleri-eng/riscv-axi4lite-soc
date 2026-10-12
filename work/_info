@@ -1,0 +1,856 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+Z2 !s12c _opt
+R1
+R2
+R1
+Z3 !s12c _opt2
+R1
+R3
+R1
+R3
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R3
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R3
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R2
+R1
+R0
+R1
+R3
+R1
+R2
+R1
+R0
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z4 dF:/capstone_project/riscv-axi4lite-soc
+T_opt
+!s110 1790511380
+V:mz;W:hC9nR=CZ=hkO;:f0
+04 7 4 work tb_uart fast 0
+=1-9840bb4885bd-6ab90913-3a4-18c4
+R1
+Z5 !s12f OEM100
+Z6 !s12b OEM100
+Z7 !s124 OEM100
+Z8 o-quiet -auto_acc_if_foreign -work work
+Z9 tCvgOpt 0
+n@_opt
+Z10 OL;O;2024.1;79
+R4
+T_opt1
+!s110 1790521046
+V8:5^[=TKch`XE09oIzYBo2
+04 8 4 work tb_timer fast 0
+=1-9840bb4885bd-6ab92ed5-36c-1444
+R1
+R5
+R6
+R7
+R8
+R9
+n@_opt1
+R10
+T_opt2
+!s110 1790510344
+VE8Jm:29PNjO87`<2DdPO12
+04 7 4 work tb_gpio fast 0
+=1-9840bb4885bd-6ab90508-21b-4e24
+R1
+R5
+R6
+R7
+R8
+R9
+n@_opt2
+R10
+R4
+valu
+Z11 2soc_pkg.sv|regfile.sv|alu.sv|decode_unit.sv|control_unit.sv|load_store_unit.sv|rv32i_core.sv|instr_sram.sv|data_sram.sv|data_bus_decoder.sv|core_to_axi_master_adapter.sv|axi4lite_interconnect.sv|axi4lite_gpio.sv|axi4lite_timer.sv|axi4lite_pwm.sv|axi4lite_uart.sv|soc_top.sv|tb_soc_invalid_access.sv
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z13 DXx4 work 7 soc_pkg 0 22 2ZnN<[H3GR8KEShDELIG92
+Z14 !s110 1790508997
+!i10b 1
+!s100 aa@G>]n@CE=8Z@LHQ<f4O0
+IkDAh`c9?1f8gnd<2dbXbm0
+S1
+R4
+Z15 w1789551955
+8alu.sv
+Falu.sv
+!i122 18
+L0 8 29
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z18 !s108 1790508996.000000
+Z19 !s107 tb_soc_invalid_access.sv|soc_top.sv|axi4lite_uart.sv|axi4lite_pwm.sv|axi4lite_timer.sv|axi4lite_gpio.sv|axi4lite_interconnect.sv|core_to_axi_master_adapter.sv|data_bus_decoder.sv|data_sram.sv|instr_sram.sv|rv32i_core.sv|load_store_unit.sv|control_unit.sv|decode_unit.sv|alu.sv|regfile.sv|soc_pkg.sv|
+Z20 !s90 -reportprogress|300|-sv|-cover|sbceft|soc_pkg.sv|regfile.sv|alu.sv|decode_unit.sv|control_unit.sv|load_store_unit.sv|rv32i_core.sv|instr_sram.sv|data_sram.sv|data_bus_decoder.sv|core_to_axi_master_adapter.sv|axi4lite_interconnect.sv|axi4lite_gpio.sv|axi4lite_timer.sv|axi4lite_pwm.sv|axi4lite_uart.sv|soc_top.sv|tb_soc_invalid_access.sv|
+!i113 0
+Z21 !s102 -cover sbceft
+Z22 o-sv -cover sbceft -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vaxi4lite_dummy_slave
+Z23 2soc_pkg.sv|core_to_axi_master_adapter.sv|axi4lite_interconnect.sv|axi4lite_dummy_slave.sv|tb_axi_path.sv
+R12
+R13
+Z24 !s110 1790509442
+!i10b 1
+!s100 WTM8kC6WaCz;NIhS@:SIb3
+IR8BecP^jS_QO6DE5V;0A12
+S1
+R4
+w1790344930
+8axi4lite_dummy_slave.sv
+Faxi4lite_dummy_slave.sv
+!i122 20
+L0 11 75
+R16
+R17
+r1
+!s85 0
+31
+Z25 !s108 1790509442.000000
+Z26 !s107 tb_axi_path.sv|axi4lite_dummy_slave.sv|axi4lite_interconnect.sv|core_to_axi_master_adapter.sv|soc_pkg.sv|
+Z27 !s90 -reportprogress|300|-sv|-cover|sbceft|soc_pkg.sv|core_to_axi_master_adapter.sv|axi4lite_interconnect.sv|axi4lite_dummy_slave.sv|tb_axi_path.sv|
+!i113 0
+R21
+R22
+R9
+vaxi4lite_gpio
+Z28 2soc_pkg.sv|axi4lite_gpio.sv|tb_gpio.sv
+R12
+R13
+Z29 !s110 1790510323
+!i10b 1
+!s100 _iW7=hGP[FD^KjEXY[3c32
+IkJTE[95o>L2DzT7FY795m0
+S1
+R4
+R15
+8axi4lite_gpio.sv
+Faxi4lite_gpio.sv
+!i122 23
+L0 15 138
+R16
+R17
+r1
+!s85 0
+31
+Z30 !s108 1790510322.000000
+Z31 !s107 tb_gpio.sv|axi4lite_gpio.sv|soc_pkg.sv|
+Z32 !s90 -reportprogress|300|-sv|-cover|sbceft|soc_pkg.sv|axi4lite_gpio.sv|tb_gpio.sv|
+!i113 0
+R21
+R22
+R9
+vaxi4lite_interconnect
+R23
+R12
+R13
+R24
+!i10b 1
+!s100 FRm>^=X^8;_N93goD>Qm_0
+IL5]FdgHDXz>4m<`Wa4?2j2
+S1
+R4
+R15
+8axi4lite_interconnect.sv
+Faxi4lite_interconnect.sv
+!i122 20
+L0 15 139
+R16
+R17
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R21
+R22
+R9
+vaxi4lite_pwm
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 VPBS1Sj?gnkhjIIN@>X=f3
+IYBA0>WPjONhNJlB=V>nV]0
+S1
+R4
+R15
+8axi4lite_pwm.sv
+Faxi4lite_pwm.sv
+!i122 18
+L0 18 143
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vaxi4lite_timer
+Z33 2axi4lite_timer.sv|tb_timer.sv
+R12
+R13
+Z34 !s110 1790521002
+!i10b 1
+!s100 >R1YD5=zGG6`F3^2_FCP50
+I^53X<;P0nd:cFljz9^]251
+S1
+R4
+R15
+8axi4lite_timer.sv
+Faxi4lite_timer.sv
+!i122 25
+L0 22 152
+R16
+R17
+r1
+!s85 0
+31
+Z35 !s108 1790521002.000000
+Z36 !s107 tb_timer.sv|axi4lite_timer.sv|
+Z37 !s90 -reportprogress|300|-sv|-cover|sbceft|axi4lite_timer.sv|tb_timer.sv|
+!i113 0
+R21
+R22
+R9
+vaxi4lite_uart
+Z38 2soc_pkg.sv|axi4lite_uart.sv|tb_uart.sv
+R12
+R13
+Z39 !s110 1790511272
+!i10b 1
+!s100 5c@bA@6YK<0CS46<<Ff7C0
+I<KYMW1XWI37Pz3=^ShOQ[2
+S1
+R4
+w1789558308
+8axi4lite_uart.sv
+Faxi4lite_uart.sv
+!i122 24
+L0 26 258
+R16
+R17
+r1
+!s85 0
+31
+Z40 !s108 1790511272.000000
+Z41 !s107 tb_uart.sv|axi4lite_uart.sv|soc_pkg.sv|
+Z42 !s90 -reportprogress|300|-sv|-cover|sbceft|soc_pkg.sv|axi4lite_uart.sv|tb_uart.sv|
+!i113 0
+R21
+R22
+R9
+vcontrol_unit
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 LPL5YzR;3iX09i@LZYKi12
+IFz@4:XX9TkB6Z9@1QoLX_3
+S1
+R4
+R15
+8control_unit.sv
+Fcontrol_unit.sv
+!i122 18
+L0 9 131
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vcore_to_axi_master_adapter
+R23
+R12
+R24
+!i10b 1
+!s100 HD[HhPZY?GdI2Mbz49maO0
+ILbToZd>0XR4N4ddZa>V`L3
+S1
+R4
+R15
+8core_to_axi_master_adapter.sv
+Fcore_to_axi_master_adapter.sv
+!i122 20
+L0 14 117
+R16
+R17
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R21
+R22
+R9
+vdata_bus_decoder
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 0^0UXGbFEc15F`oEJ_QCV3
+I^k<EMf5gAQ?S=>MmGA_>b2
+S1
+R4
+w1789648615
+8data_bus_decoder.sv
+Fdata_bus_decoder.sv
+!i122 18
+L0 15 63
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vdata_sram
+R11
+R12
+R14
+!i10b 1
+!s100 R2XYZPOKohSCgd7;>=kCF0
+I0zUYRRW<GMGbI5ihIClca0
+S1
+R4
+R15
+8data_sram.sv
+Fdata_sram.sv
+!i122 18
+L0 13 35
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vdecode_unit
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 OA2bgFG`@eTG:5ZSP<hc@1
+I=_D<]AJ1_D?T805UQlO9L3
+S1
+R4
+R15
+8decode_unit.sv
+Fdecode_unit.sv
+!i122 18
+L0 9 40
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vinstr_sram
+R11
+R12
+R14
+!i10b 1
+!s100 N0fM;XYGY6RRVPOH5QW2D3
+In8G2m[8HdZX0@aEWeadeV2
+S1
+R4
+R15
+8instr_sram.sv
+Finstr_sram.sv
+!i122 18
+L0 18 22
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vload_store_unit
+R11
+R12
+R14
+!i10b 1
+!s100 AD8jNmPiVI^=@Z4A`kZG>3
+IYMjze>ej8@Z[Na]n450NC2
+S1
+R4
+R15
+8load_store_unit.sv
+Fload_store_unit.sv
+!i122 18
+L0 9 55
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vregfile
+R11
+R12
+R14
+!i10b 1
+!s100 gFz`R6e0RN@jzNWZPPedQ0
+IX14CnPiR@U;>7`THb4OQN3
+S1
+R4
+R15
+8regfile.sv
+Fregfile.sv
+!i122 18
+L0 18 31
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vrv32i_core
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 2k;2Y<@NcNR:PkjK>ND2`0
+IFK]Vk10cLLR^h7zXKY14Z0
+S1
+R4
+R15
+8rv32i_core.sv
+Frv32i_core.sv
+!i122 18
+L0 15 184
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+Xsoc_pkg
+R38
+R12
+R39
+!i10b 1
+!s100 ZMb_;R:I4PLRWULn5PK:P0
+I2ZnN<[H3GR8KEShDELIG92
+S1
+R4
+R15
+8soc_pkg.sv
+Fsoc_pkg.sv
+!i122 24
+L0 8 0
+V2ZnN<[H3GR8KEShDELIG92
+R17
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R21
+R22
+R9
+vsoc_top
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 i@1i9JV:^[WWm_A3;52Ro3
+ITHYg27Vkl6Q:Nf2j[zMiR0
+S1
+R4
+w1789648617
+8soc_top.sv
+Fsoc_top.sv
+!i122 18
+L0 12 156
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vtb_adapter_coverage
+2core_to_axi_master_adapter.sv|tb_adapter_coverage.sv
+R12
+!s110 1790506741
+!i10b 1
+!s100 eMKAj[ILKKo4QRg[TUgQ_1
+IHhEm13<bgh5;3<3;T:FjK1
+S1
+R4
+w1790506732
+8tb_adapter_coverage.sv
+Ftb_adapter_coverage.sv
+!i122 13
+L0 1 348
+R16
+R17
+r1
+!s85 0
+31
+!s108 1790506741.000000
+!s107 tb_adapter_coverage.sv|core_to_axi_master_adapter.sv|
+!s90 -reportprogress|300|-sv|-cover|sbceft|core_to_axi_master_adapter.sv|tb_adapter_coverage.sv|
+!i113 0
+R21
+R22
+R9
+vtb_axi_path
+R23
+R12
+R13
+R24
+!i10b 1
+!s100 aT<H=ZN]V2fa@VPVQUG?z0
+IB_Gc=2S>TR6a`YhaC<G4z2
+S1
+R4
+w1790509431
+8tb_axi_path.sv
+Ftb_axi_path.sv
+!i122 20
+L0 14 255
+R16
+R17
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 0
+R21
+R22
+R9
+vtb_gpio
+R28
+R12
+R13
+R29
+!i10b 1
+!s100 zkb>ok6VomA1<P0FLG7lP0
+I4Mz4f@Z0gU=05Y[0z7^W]2
+S1
+R4
+w1790510314
+8tb_gpio.sv
+Ftb_gpio.sv
+!i122 23
+L0 11 274
+R16
+R17
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 0
+R21
+R22
+R9
+vtb_pwm
+2soc_pkg.sv|axi4lite_pwm.sv|tb_pwm.sv
+R12
+R13
+!s110 1790505734
+!i10b 1
+!s100 5Yod8_Jk2WH9QfVM3N^kB1
+I6[@YO<CQeO6ZWkQdko4?O3
+S1
+R4
+w1790505720
+8tb_pwm.sv
+Ftb_pwm.sv
+!i122 10
+L0 11 277
+R16
+R17
+r1
+!s85 0
+31
+!s108 1790505733.000000
+!s107 tb_pwm.sv|axi4lite_pwm.sv|soc_pkg.sv|
+!s90 -reportprogress|300|-sv|-cover|sbceft|soc_pkg.sv|axi4lite_pwm.sv|tb_pwm.sv|
+!i113 0
+R21
+R22
+R9
+vtb_soc_invalid_access
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 F[VRDbIjPjok=Lg?EZR:11
+IBPMDNl:T`1AHbHAUARY7g2
+S1
+R4
+w1789983897
+8tb_soc_invalid_access.sv
+Ftb_soc_invalid_access.sv
+!i122 18
+L0 21 63
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+R9
+vtb_timer
+R33
+R12
+R13
+R34
+!i10b 1
+!s100 HH4RWMKgQ8g3NW]DeHdF_2
+IjB=7UC8Ui4nz6Sf5IOi0E2
+S1
+R4
+w1790520924
+8tb_timer.sv
+Ftb_timer.sv
+!i122 25
+L0 12 261
+R16
+R17
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R21
+R22
+R9
+vtb_uart
+R38
+R12
+R13
+R39
+!i10b 1
+!s100 <SWHmJ2`EB08H]V4mY9iP2
+ILY44A2IaM1P_kINiJFODP1
+S1
+R4
+w1790511224
+8tb_uart.sv
+Ftb_uart.sv
+!i122 24
+L0 11 407
+R16
+R17
+r1
+!s85 0
+31
+R40
+R41
+R42
+!i113 0
+R21
+R22
+R9

@@ -1,0 +1,4 @@
+BEGIN 1:axi4lite_uart:fast:work
+    tx_bit_idx :  1:tb_uart:fast:work
+    tx_state :  1:tb_uart:fast:work
+END 

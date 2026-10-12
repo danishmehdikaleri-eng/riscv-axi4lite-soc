@@ -1,0 +1,808 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_timer/dut
+=== Design Unit: work.axi4lite_timer
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        57        41        16    71.92%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_timer/dut
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File axi4lite_timer.sv
+------------------------------------IF Branch------------------------------------
+    60                                         6     Count coming in to IF
+    60              1                          2     
+    61              1                          4     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    73                                        63     Count coming in to IF
+    73              1                          2     
+    79              1                         61     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    80                                        61     Count coming in to CASE
+    81              1                         54     
+    104             1                          7     
+    105             1                    ***0***     
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    82                                        54     Count coming in to IF
+    82              1                          7     
+                                              47     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    83                                         7     Count coming in to CASE
+    84              1                          4     
+    90              1                          2     
+    96              1                          1     
+    99              1                    ***0***     
+Branch totals: 3 hits of 4 branches = 75.00%
+
+------------------------------------IF Branch------------------------------------
+    85                                         4     Count coming in to IF
+    85              1                          4     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    86                                         4     Count coming in to IF
+    86              1                          4     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    87                                         4     Count coming in to IF
+    87              1                          4     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    88                                         4     Count coming in to IF
+    88              1                          4     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                         2     Count coming in to IF
+    91              1                          2     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    92                                         2     Count coming in to IF
+    92              1                          2     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                         2     Count coming in to IF
+    93              1                          2     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    94                                         2     Count coming in to IF
+    94              1                          2     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    97                                         1     Count coming in to IF
+    97              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    104                                        7     Count coming in to IF
+    104             2                          7     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    115                                       61     Count coming in to IF
+    115             1                          2     
+    118             1                         45     
+                                              14     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    117                                        2     Count coming in to IF
+    117             1                    ***0***     
+                                               2     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    119                                       45     Count coming in to IF
+    119             1                          5     
+    122             1                          8     
+    126             1                         32     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    124                                        8     Count coming in to IF
+    124             1                          7     
+    124             2                          1     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    147                                       56     Count coming in to CASE
+    148             1                         16     
+    149             1                         19     
+    150             1                    ***0***     
+    151             1                         20     
+    152             1                          1     
+Branch totals: 4 hits of 5 branches = 80.00%
+
+------------------------------------IF Branch------------------------------------
+    157                                       27     Count coming in to IF
+    157             1                          2     
+    159             1                         25     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    160                                       25     Count coming in to CASE
+    161             1                         17     
+    162             1                          8     
+    163             1                    ***0***     
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    161                                       17     Count coming in to IF
+    161             2                          8     
+                                               9     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    162                                        8     Count coming in to IF
+    162             2                          8     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       7         3         4    42.85%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_timer/dut --
+
+  File axi4lite_timer.sv
+----------------Focused Condition View-------------------
+Line       82 Item    1  (awvalid && wvalid)
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+     awvalid         Y
+      wvalid         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  awvalid_0             -                             
+  Row   2:          1  awvalid_1             wvalid                        
+  Row   3:    ***0***  wvalid_0              awvalid                       
+  Row   4:          1  wvalid_1              awvalid                       
+
+----------------Focused Condition View-------------------
+Line       97 Item    1  (wstrb[0] && wdata[0])
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+    wstrb[0]         N  '_0' not hit             Hit '_0'
+    wdata[0]         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  wstrb[0]_0            -                             
+  Row   2:          1  wstrb[0]_1            wdata[0]                      
+  Row   3:    ***0***  wdata[0]_0            wstrb[0]                      
+  Row   4:          1  wdata[0]_1            wstrb[0]                      
+
+----------------Focused Condition View-------------------
+Line       117 Item    1  (load_reg == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+  (load_reg == 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (load_reg == 0)_0     -                             
+  Row   2:    ***0***  (load_reg == 0)_1     -                             
+
+----------------Focused Condition View-------------------
+Line       119 Item    1  (count_reg == 0)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       122 Item    1  (count_reg == 1)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      7         2         5    28.57%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_timer/dut --
+
+  File axi4lite_timer.sv
+----------------Focused Expression View-----------------
+Line       63 Item    1  (enable && ~enable_prev)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       133 Item    1  (w_state == W_IDLE)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (w_state == W_IDLE)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (w_state == W_IDLE)_0  -                             
+  Row   2:    ***0***  (w_state == W_IDLE)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       134 Item    1  (w_state == W_IDLE)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (w_state == W_IDLE)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (w_state == W_IDLE)_0  -                             
+  Row   2:    ***0***  (w_state == W_IDLE)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       135 Item    1  (w_state == W_RESP)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (w_state == W_RESP)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (w_state == W_RESP)_0  -                             
+  Row   2:    ***0***  (w_state == W_RESP)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       168 Item    1  (r_state == R_IDLE)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (r_state == R_IDLE)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (r_state == R_IDLE)_0  -                             
+  Row   2:    ***0***  (r_state == R_IDLE)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       169 Item    1  (r_state == R_RESP)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (r_state == R_RESP)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (r_state == R_RESP)_0  -                             
+  Row   2:    ***0***  (r_state == R_RESP)_1  -                             
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  4         4         0   100.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /tb_timer/dut --
+
+FSM_ID: w_state
+    Current State Object : w_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  81              W_IDLE                   0
+ 104              W_RESP                   1
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                  W_IDLE                   9          
+                  W_RESP                   7          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 101                   0                   7          W_IDLE -> W_RESP              
+ 104                   1                   7          W_RESP -> W_IDLE              
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   2         2         0   100.00%
+        FSM Transitions              2         2         0   100.00%
+FSM_ID: r_state
+    Current State Object : r_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 161              R_IDLE                   0
+ 162              R_RESP                   1
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                  R_IDLE                  10          
+                  R_RESP                   8          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 161                   0                   8          R_IDLE -> R_RESP              
+ 162                   1                   8          R_RESP -> R_IDLE              
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   2         2         0   100.00%
+        FSM Transitions              2         2         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      45        36         9    80.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_timer/dut --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File axi4lite_timer.sv
+    59              1                          6     
+    60              1                          2     
+    61              1                          4     
+    63              1                          8     
+    70              1                          8     
+    72              1                         63     
+    74              1                          2     
+    75              1                          2     
+    76              1                          2     
+    77              1                          2     
+    78              1                          2     
+    85              1                          4     
+    86              1                          4     
+    87              1                          4     
+    88              1                          4     
+    91              1                          2     
+    92              1                          2     
+    93              1                          2     
+    94              1                          2     
+    97              1                          1     
+    101             1                          7     
+    104             1                          7     
+    105             1                    ***0***     
+    116             1                          2     
+    117             1                    ***0***     
+    124             1                          8     
+    125             1                          8     
+    127             1                         32     
+    133             1                    ***0***     
+    134             1                    ***0***     
+    135             1                    ***0***     
+    144             1                          8     
+    146             1                         56     
+    148             1                         16     
+    149             1                         19     
+    150             1                    ***0***     
+    151             1                         20     
+    152             1                          1     
+    156             1                         27     
+    158             1                          2     
+    161             1                          8     
+    162             1                          8     
+    163             1                    ***0***     
+    168             1                    ***0***     
+    169             1                    ***0***     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        368        59       309    16.03%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_timer/dut --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                        bresp[0-1]           0           0                                0.00 
+                                   count_reg[4-31]           0           0                                0.00 
+                                       ctrl_reg[1]           0           1                               50.00 
+                                    ctrl_reg[2-31]           0           0                                0.00 
+                                       load_reg[0]           0           0                                0.00 
+                                       load_reg[2]           0           1                               50.00 
+                                    load_reg[4-31]           0           0                                0.00 
+                                          periodic           0           1                               50.00 
+                                           r_state               ENUM type       Value       Count 
+                                 raddr_offset[0-1]           0           0                                0.00 
+                                       rdata[3-31]           0           0                                0.00 
+                                   read_data[3-31]           0           0                                0.00 
+                                        rresp[0-1]           0           0                                0.00 
+                                           w_state               ENUM type       Value       Count 
+                                 waddr_offset[0-1]           0           0                                0.00 
+
+Total Node Count     =        186 
+Toggled Node Count   =         30 
+Untoggled Node Count =        156 
+
+Toggle Coverage      =      16.03% (59 of 368 bins)
+
+=================================================================================
+=== Instance: /tb_timer
+=== Design Unit: work.tb_timer
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        17         8         9    47.05%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_timer
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_timer.sv
+------------------------------------IF Branch------------------------------------
+    66                                         1     Count coming in to IF
+    66              1                    ***0***     
+    69              1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    78                                         1     Count coming in to IF
+    78              1                    ***0***     
+    81              1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    94                                         1     Count coming in to IF
+    94              1                    ***0***     
+    97              1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    103                                        1     Count coming in to IF
+    103             1                    ***0***     
+    106             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    114                                        1     Count coming in to IF
+    114             1                    ***0***     
+    117             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    132                                        1     Count coming in to IF
+    132             1                    ***0***     
+    135             1                    ***0***     
+    138             1                          1     
+Branch totals: 1 hit of 3 branches = 33.33%
+
+------------------------------------IF Branch------------------------------------
+    147                                        1     Count coming in to IF
+    147             1                    ***0***     
+    150             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    153                                        1     Count coming in to IF
+    153             1                          1     
+    155             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      10         0        10     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_timer --
+
+  File tb_timer.sv
+----------------Focused Condition View-------------------
+Line       66 Item    1  (rd !== 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (rd !== 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd !== 0)_0          -                             
+  Row   2:    ***0***  (rd !== 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       78 Item    1  (rd !== 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (rd !== 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd !== 0)_0          -                             
+  Row   2:    ***0***  (rd !== 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       94 Item    1  (rd !== 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+  (rd !== 0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd !== 0)_0          -                             
+  Row   2:    ***0***  (rd !== 0)_1          -                             
+
+----------------Focused Condition View-------------------
+Line       103 Item    1  (rd[0] !== 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[0] !== 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[0] !== 1'b1)_0    -                             
+  Row   2:    ***0***  (rd[0] !== 1'b1)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       114 Item    1  (rd[0] !== 1'b0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[0] !== 1'b0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[0] !== 1'b0)_0    -                             
+  Row   2:    ***0***  (rd[0] !== 1'b0)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       132 Item    1  ((rd1 > 4) || (rd2 > 4))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+   (rd1 > 4)         N  '_1' not hit             Hit '_1'
+   (rd2 > 4)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd1 > 4)_0           ~(rd2 > 4)                    
+  Row   2:    ***0***  (rd1 > 4)_1           -                             
+  Row   3:          1  (rd2 > 4)_0           ~(rd1 > 4)                    
+  Row   4:    ***0***  (rd2 > 4)_1           ~(rd1 > 4)                    
+
+----------------Focused Condition View-------------------
+Line       135 Item    1  (rd1 == rd2)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  (rd1 == rd2)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd1 == rd2)_0        -                             
+  Row   2:    ***0***  (rd1 == rd2)_1        -                             
+
+----------------Focused Condition View-------------------
+Line       147 Item    1  (rd[0] !== 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[0] !== 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[0] !== 1'b1)_0    -                             
+  Row   2:    ***0***  (rd[0] !== 1'b1)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       153 Item    1  (errors == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  (errors == 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (errors == 0)_0       -                             
+  Row   2:          1  (errors == 0)_1       -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      89        70        19    78.65%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_timer --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_timer.sv
+    17              1                        176     
+    17              2                        175     
+    37              1                          7     
+    37              2                          7     
+    37              3                          7     
+    38              1                          7     
+    38              2                          7     
+    38              3                          7     
+    39              1                          7     
+    40              1                         14     
+    40              2                          7     
+    41              1                          7     
+    41              2                          7     
+    41              3                          7     
+    42              1                          7     
+    46              1                          8     
+    46              2                          8     
+    46              3                          8     
+    47              1                          8     
+    48              1                         16     
+    48              2                          8     
+    49              1                          8     
+    50              1                          8     
+    50              2                          8     
+    51              1                          8     
+    55              1                          1     
+    56              1                          1     
+    56              2                          1     
+    56              3                          1     
+    56              4                          1     
+    56              5                          1     
+    56              6                          1     
+    57              1                          1     
+    57              2                          1     
+    57              3                          1     
+    58              1                          2     
+    58              2                          2     
+    59              1                          1     
+    60              1                          1     
+    65              1                          1     
+    67              1                    ***0***     
+    68              1                    ***0***     
+    69              1                          1     
+    75              1                          1     
+    76              1                          1     
+    79              1                    ***0***     
+    80              1                    ***0***     
+    82              1                          1     
+    86              1                          1     
+    87              1                          1     
+    89              1                         20     
+    89              2                         20     
+    93              1                          1     
+    95              1                    ***0***     
+    96              1                    ***0***     
+    97              1                          1     
+    102             1                          1     
+    104             1                    ***0***     
+    105             1                    ***0***     
+    106             1                          1     
+    110             1                          1     
+    113             1                          1     
+    115             1                    ***0***     
+    116             1                    ***0***     
+    117             1                          1     
+    121             1                          1     
+    122             1                          1     
+    123             1                          1     
+    125             1                         10     
+    125             2                         10     
+    129             1                          1     
+    130             1                          1     
+    133             1                    ***0***     
+    134             1                    ***0***     
+    136             1                    ***0***     
+    137             1                    ***0***     
+    139             1                          1     
+    143             1                         10     
+    143             2                         10     
+    146             1                          1     
+    148             1                    ***0***     
+    149             1                    ***0***     
+    150             1                          1     
+    154             1                          1     
+    156             1                    ***0***     
+    159             1                          1     
+    163             1                          1     
+    164             1                    ***0***     
+    165             1                    ***0***     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        360        53       307    14.72%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_timer --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                       araddr[0-1]           0           0                                0.00 
+                                      araddr[4-11]           0           0                                0.00 
+                                        araddr[12]           0           1                               50.00 
+                                     araddr[13-29]           0           0                                0.00 
+                                        araddr[30]           0           1                               50.00 
+                                        araddr[31]           0           0                                0.00 
+                                       awaddr[0-1]           0           0                                0.00 
+                                      awaddr[4-11]           0           0                                0.00 
+                                        awaddr[12]           0           1                               50.00 
+                                     awaddr[13-29]           0           0                                0.00 
+                                        awaddr[30]           0           1                               50.00 
+                                        awaddr[31]           0           0                                0.00 
+                                        bresp[0-1]           0           0                                0.00 
+                                      errors[0-31]           0           0                                0.00 
+                                       rdata[3-31]           0           0                                0.00 
+                                        rresp[0-1]           0           0                                0.00 
+                                               rst           1           0                               50.00 
+                                       wdata[4-31]           0           0                                0.00 
+                                        wstrb[0-3]           0           1                               50.00 
+
+Total Node Count     =        180 
+Toggled Node Count   =         22 
+Untoggled Node Count =        158 
+
+Toggle Coverage      =      14.72% (53 of 360 bins)
+
+
+Total Coverage By Instance (filtered view): 58.13%
+

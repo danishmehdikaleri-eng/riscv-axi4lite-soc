@@ -1,0 +1,1126 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_uart/dut
+=== Design Unit: work.axi4lite_uart
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        73        60        13    82.19%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_uart/dut
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File axi4lite_uart.sv
+------------------------------------IF Branch------------------------------------
+    73                                       110     Count coming in to IF
+    73              1                          2     
+    78              1                        108     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    81                                       108     Count coming in to CASE
+    82              1                         76     
+    103             1                         32     
+    104             1                    ***0***     
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    83                                        76     Count coming in to IF
+    83              1                         32     
+                                              44     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    84                                        32     Count coming in to CASE
+    85              1                         11     
+    92              1                         21     
+    98              1                    ***0***     
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    86                                        11     Count coming in to IF
+    86              1                         11     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    93                                        21     Count coming in to IF
+    93              1                         21     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    94                                        21     Count coming in to IF
+    94              1                         21     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    95                                        21     Count coming in to IF
+    95              1                         21     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    96                                        21     Count coming in to IF
+    96              1                         21     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    103                                       32     Count coming in to IF
+    103             2                         32     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    122                                      486     Count coming in to IF
+    122             1                          2     
+    127             1                        484     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    128                                      484     Count coming in to CASE
+    129             1                         44     
+    134             1                         44     
+    144             1                        352     
+    157             1                         44     
+    166             1                    ***0***     
+Branch totals: 4 hits of 5 branches = 80.00%
+
+------------------------------------IF Branch------------------------------------
+    132                                       44     Count coming in to IF
+    132             1                         11     
+                                              33     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    136                                       44     Count coming in to IF
+    136             1                         11     
+    140             1                         33     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    146                                      352     Count coming in to IF
+    146             1                         88     
+    153             1                        264     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    148                                       88     Count coming in to IF
+    148             1                         11     
+    150             1                         77     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    159                                       44     Count coming in to IF
+    159             1                         11     
+    162             1                         33     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    184                                      240     Count coming in to IF
+    184             1                          2     
+    190             1                        238     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    191                                      238     Count coming in to CASE
+    192             1                         38     
+    198             1                         20     
+    207             1                        160     
+    226             1                         20     
+    236             1                    ***0***     
+Branch totals: 4 hits of 5 branches = 80.00%
+
+------------------------------------IF Branch------------------------------------
+    194                                       38     Count coming in to IF
+    194             1                          5     
+                                              33     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    199                                       20     Count coming in to IF
+    199             1                          5     
+    203             1                         15     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    212                                      160     Count coming in to IF
+    212             1                         40     
+                                             120     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    215                                      160     Count coming in to IF
+    215             1                         40     
+    222             1                        120     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    217                                       40     Count coming in to IF
+    217             1                          5     
+    219             1                         35     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    227                                       20     Count coming in to IF
+    227             1                          5     
+    232             1                         15     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    243                                      238     Count coming in to IF
+    243             1                          2     
+                                             236     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    258                                       58     Count coming in to CASE
+    259             1                          4     
+    260             1                         51     
+    261             1                    ***0***     
+    262             1                          3     
+Branch totals: 3 hits of 4 branches = 75.00%
+
+------------------------------------IF Branch------------------------------------
+    267                                       30     Count coming in to IF
+    267             1                          2     
+    269             1                         28     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    270                                       28     Count coming in to CASE
+    271             1                         19     
+    272             1                          9     
+    273             1                    ***0***     
+Branch totals: 2 hits of 3 branches = 66.66%
+
+------------------------------------IF Branch------------------------------------
+    271                                       19     Count coming in to IF
+    271             2                          9     
+                                              10     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    272                                        9     Count coming in to IF
+    272             2                          9     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      13        11         2    84.61%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_uart/dut --
+
+  File axi4lite_uart.sv
+----------------Focused Condition View-------------------
+Line       83 Item    1  (awvalid && wvalid)
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+     awvalid         Y
+      wvalid         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  awvalid_0             -                             
+  Row   2:          1  awvalid_1             wvalid                        
+  Row   3:    ***0***  wvalid_0              awvalid                       
+  Row   4:          1  wvalid_1              awvalid                       
+
+----------------Focused Condition View-------------------
+Line       136 Item    1  (tx_baud_counter >= (baud_div - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       146 Item    1  (tx_baud_counter >= (baud_div - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       148 Item    1  (tx_bit_idx == 7)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       159 Item    1  (tx_baud_counter >= (baud_div - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       194 Item    1  (~uart_rx && (baud_div != 0))
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+       Input Term   Covered  Reason for no coverage   Hint
+      -----------  --------  -----------------------  --------------
+          uart_rx         Y
+  (baud_div != 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  uart_rx_0             (baud_div != 0)               
+  Row   2:          1  uart_rx_1             -                             
+  Row   3:    ***0***  (baud_div != 0)_0     ~uart_rx                      
+  Row   4:          1  (baud_div != 0)_1     ~uart_rx                      
+
+----------------Focused Condition View-------------------
+Line       199 Item    1  (rx_baud_counter >= (baud_div - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       212 Item    1  (rx_baud_counter == (baud_div >> 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       215 Item    1  (rx_baud_counter >= (baud_div - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       217 Item    1  (rx_bit_idx == 7)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       227 Item    1  (rx_baud_counter >= (baud_div - 1))
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     10         5         5    50.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_uart/dut --
+
+  File axi4lite_uart.sv
+----------------Focused Expression View-----------------
+Line       109 Item    1  (w_state == W_IDLE)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (w_state == W_IDLE)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (w_state == W_IDLE)_0  -                             
+  Row   2:    ***0***  (w_state == W_IDLE)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       110 Item    1  (w_state == W_IDLE)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (w_state == W_IDLE)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (w_state == W_IDLE)_0  -                             
+  Row   2:    ***0***  (w_state == W_IDLE)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       111 Item    1  (w_state == W_RESP)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (w_state == W_RESP)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (w_state == W_RESP)_0  -                             
+  Row   2:    ***0***  (w_state == W_RESP)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       171 Item    1  ((tx_state == TX_IDLE) && (baud_div != 0))
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       255 Item    1  (((r_state == R_IDLE) && arvalid) && (raddr_offset == 4))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       278 Item    1  (r_state == R_IDLE)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (r_state == R_IDLE)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (r_state == R_IDLE)_0  -                             
+  Row   2:    ***0***  (r_state == R_IDLE)_1  -                             
+
+----------------Focused Expression View-----------------
+Line       279 Item    1  (r_state == R_RESP)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+           Input Term   Covered  Reason for no coverage   Hint
+          -----------  --------  -----------------------  --------------
+  (r_state == R_RESP)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target             Non-masking condition(s)      
+ ---------  ---------  --------------------   -------------------------     
+  Row   1:    ***0***  (r_state == R_RESP)_0  -                             
+  Row   2:    ***0***  (r_state == R_RESP)_1  -                             
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                      12        12         0   100.00%
+    FSM Transitions                 16        12         4    75.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /tb_uart/dut --
+
+FSM_ID: w_state
+    Current State Object : w_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  82              W_IDLE                   0
+ 103              W_RESP                   1
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                  W_IDLE                  34          
+                  W_RESP                  32          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 100                   0                  32          W_IDLE -> W_RESP              
+ 103                   1                  32          W_RESP -> W_IDLE              
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   2         2         0   100.00%
+        FSM Transitions              2         2         0   100.00%
+FSM_ID: tx_state
+    Current State Object : tx_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 129             TX_IDLE                   0
+ 134            TX_START                   1
+ 144             TX_DATA                   2
+ 157             TX_STOP                   3
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                 TX_IDLE                  13          
+                TX_START                  11          
+                 TX_DATA                  11          
+                 TX_STOP                  11          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 132                   0                  11          TX_IDLE -> TX_START           
+ 139                   1                  11          TX_START -> TX_DATA           
+ 149                   3                  11          TX_DATA -> TX_STOP            
+ 161                   5                  11          TX_STOP -> TX_IDLE            
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+ 123                   2          TX_START -> TX_IDLE 
+ 123                   4          TX_DATA -> TX_IDLE  
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   4         4         0   100.00%
+        FSM Transitions              6         4         2    66.66%
+FSM_ID: rx_state
+    Current State Object : rx_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 192             RX_IDLE                   0
+ 198            RX_START                   1
+ 207             RX_DATA                   2
+ 226             RX_STOP                   3
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                 RX_IDLE                   7          
+                RX_START                   5          
+                 RX_DATA                   5          
+                 RX_STOP                   5          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 195                   0                   5          RX_IDLE -> RX_START           
+ 202                   1                   5          RX_START -> RX_DATA           
+ 218                   3                   5          RX_DATA -> RX_STOP            
+ 231                   5                   5          RX_STOP -> RX_IDLE            
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+ 185                   2          RX_START -> RX_IDLE 
+ 185                   4          RX_DATA -> RX_IDLE  
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   4         4         0   100.00%
+        FSM Transitions              6         4         2    66.66%
+FSM_ID: r_state
+    Current State Object : r_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 271              R_IDLE                   0
+ 272              R_RESP                   1
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                  R_IDLE                  11          
+                  R_RESP                   9          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 271                   0                   9          R_IDLE -> R_RESP              
+ 272                   1                   9          R_RESP -> R_IDLE              
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   2         2         0   100.00%
+        FSM Transitions              2         2         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      81        71        10    87.65%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_uart/dut --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File axi4lite_uart.sv
+    67              1                          9     
+    72              1                        110     
+    74              1                          2     
+    75              1                          2     
+    76              1                          2     
+    77              1                          2     
+    79              1                        108     
+    87              1                         11     
+    88              1                         11     
+    93              1                         21     
+    94              1                         21     
+    95              1                         21     
+    96              1                         21     
+    100             1                         32     
+    103             1                         32     
+    104             1                    ***0***     
+    109             1                    ***0***     
+    110             1                    ***0***     
+    111             1                    ***0***     
+    121             1                        486     
+    123             1                          2     
+    124             1                          2     
+    125             1                          2     
+    126             1                          2     
+    130             1                         44     
+    131             1                         44     
+    132             1                         11     
+    135             1                         44     
+    137             1                         11     
+    138             1                         11     
+    139             1                         11     
+    141             1                         33     
+    145             1                        352     
+    147             1                         88     
+    149             1                         11     
+    151             1                         77     
+    154             1                        264     
+    158             1                         44     
+    160             1                         11     
+    161             1                         11     
+    163             1                         33     
+    166             1                    ***0***     
+    171             1                         68     
+    183             1                        240     
+    185             1                          2     
+    186             1                          2     
+    187             1                          2     
+    188             1                          2     
+    189             1                          2     
+    193             1                         38     
+    195             1                          5     
+    200             1                          5     
+    201             1                          5     
+    202             1                          5     
+    204             1                         15     
+    213             1                         40     
+    216             1                         40     
+    218             1                          5     
+    220             1                         35     
+    223             1                        120     
+    228             1                          5     
+    229             1                          5     
+    230             1                          5     
+    231             1                          5     
+    233             1                         15     
+    236             1                    ***0***     
+    243             1                          2     
+    253             1                          7     
+    255             1                         45     
+    257             1                         58     
+    259             1                          4     
+    260             1                         51     
+    261             1                    ***0***     
+    262             1                          3     
+    266             1                         30     
+    268             1                          2     
+    271             1                          9     
+    272             1                          9     
+    273             1                    ***0***     
+    278             1                    ***0***     
+    279             1                    ***0***     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        502       166       336    33.06%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_uart/dut --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                    baud_div[7-31]           0           0                                0.00 
+                                        bresp[0-1]           0           0                                0.00 
+                                    ctrl_reg[7-31]           0           0                                0.00 
+                                           r_state               ENUM type       Value       Count 
+                                 raddr_offset[0-1]           0           0                                0.00 
+                                          rdata[6]           0           0                                0.00 
+                                       rdata[8-31]           0           0                                0.00 
+                                      read_data[6]           0           0                                0.00 
+                                   read_data[8-31]           0           0                                0.00 
+                                        rresp[0-1]           0           0                                0.00 
+                             rx_baud_counter[2-31]           0           0                                0.00 
+                                          rx_state               ENUM type       Value       Count 
+                             tx_baud_counter[2-31]           0           0                                0.00 
+                                          tx_state               ENUM type       Value       Count 
+                                           w_state               ENUM type       Value       Count 
+                                 waddr_offset[0-1]           0           0                                0.00 
+
+Total Node Count     =        257 
+Toggled Node Count   =         89 
+Untoggled Node Count =        168 
+
+Toggle Coverage      =      33.06% (166 of 502 bins)
+
+=================================================================================
+=== Instance: /tb_uart
+=== Design Unit: work.tb_uart
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        22        11        11    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_uart
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_uart.sv
+------------------------------------IF Branch------------------------------------
+    83                                         1     Count coming in to IF
+    83              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    98                                         1     Count coming in to IF
+    98              1                    ***0***     
+    101             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    111                                        1     Count coming in to IF
+    111             1                    ***0***     
+    114             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    136                                        8     Count coming in to IF
+    136             1                    ***0***     
+    139             1                          8     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    147                                        1     Count coming in to IF
+    147             1                    ***0***     
+    150             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    154                                        1     Count coming in to IF
+    154             1                          1     
+    156             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    166                                        1     Count coming in to IF
+    166             1                    ***0***     
+    169             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    178                                        1     Count coming in to IF
+    178             1                    ***0***     
+    181             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    187                                        1     Count coming in to IF
+    187             1                    ***0***     
+    190             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    197                                        1     Count coming in to IF
+    197             1                    ***0***     
+    200             1                          1     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    286                                        1     Count coming in to IF
+    286             1                          1     
+    288             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      12         0        12     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_uart --
+
+  File tb_uart.sv
+----------------Focused Condition View-------------------
+Line       83 Item    1  ((rd[0] !== 1'b0) || (rd[1] !== 1'b0))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[0] !== 1'b0)         N  '_1' not hit             Hit '_1'
+  (rd[1] !== 1'b0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[0] !== 1'b0)_0    ~(rd[1] !== 1'b0)             
+  Row   2:    ***0***  (rd[0] !== 1'b0)_1    -                             
+  Row   3:          1  (rd[1] !== 1'b0)_0    ~(rd[0] !== 1'b0)             
+  Row   4:    ***0***  (rd[1] !== 1'b0)_1    ~(rd[0] !== 1'b0)             
+
+----------------Focused Condition View-------------------
+Line       98 Item    1  (rd[0] !== 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[0] !== 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[0] !== 1'b1)_0    -                             
+  Row   2:    ***0***  (rd[0] !== 1'b1)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       111 Item    1  (rd[0] !== 1'b0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[0] !== 1'b0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[0] !== 1'b0)_0    -                             
+  Row   2:    ***0***  (rd[0] !== 1'b0)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       136 Item    1  (uart_tx !== expected_data[i])
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                      Input Term   Covered  Reason for no coverage   Hint
+                     -----------  --------  -----------------------  --------------
+  (uart_tx !== expected_data[i])         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target                        Non-masking condition(s)      
+ ---------  ---------  --------------------              -------------------------     
+  Row   1:          1  (uart_tx !== expected_data[i])_0  -                             
+  Row   2:    ***0***  (uart_tx !== expected_data[i])_1  -                             
+
+----------------Focused Condition View-------------------
+Line       147 Item    1  (uart_tx !== 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+          Input Term   Covered  Reason for no coverage   Hint
+         -----------  --------  -----------------------  --------------
+  (uart_tx !== 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (uart_tx !== 1'b1)_0  -                             
+  Row   2:    ***0***  (uart_tx !== 1'b1)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       154 Item    1  (mismatches == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  (mismatches == 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (mismatches == 0)_0   -                             
+  Row   2:          1  (mismatches == 0)_1   -                             
+
+----------------Focused Condition View-------------------
+Line       166 Item    1  (rd[0] !== 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[0] !== 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[0] !== 1'b1)_0    -                             
+  Row   2:    ***0***  (rd[0] !== 1'b1)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       178 Item    1  (rd[1] !== 1'b1)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[1] !== 1'b1)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[1] !== 1'b1)_0    -                             
+  Row   2:    ***0***  (rd[1] !== 1'b1)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       187 Item    1  (rd !== 60)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (rd !== 60)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd !== 60)_0         -                             
+  Row   2:    ***0***  (rd !== 60)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       197 Item    1  (rd[1] !== 1'b0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+        Input Term   Covered  Reason for no coverage   Hint
+       -----------  --------  -----------------------  --------------
+  (rd[1] !== 1'b0)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (rd[1] !== 1'b0)_0    -                             
+  Row   2:    ***0***  (rd[1] !== 1'b0)_1    -                             
+
+----------------Focused Condition View-------------------
+Line       286 Item    1  (errors == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  (errors == 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (errors == 0)_0       -                             
+  Row   2:          1  (errors == 0)_1       -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     176       155        21    88.06%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_uart --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_uart.sv
+    18              1                       1774     
+    18              2                       1773     
+    40              1                         32     
+    40              2                         32     
+    40              3                         32     
+    41              1                         32     
+    41              2                         32     
+    41              3                         32     
+    42              1                         32     
+    43              1                         64     
+    43              2                         32     
+    44              1                         32     
+    44              2                         32     
+    44              3                         32     
+    45              1                         32     
+    49              1                          9     
+    49              2                          9     
+    49              3                          9     
+    50              1                          9     
+    51              1                         18     
+    51              2                          9     
+    52              1                          9     
+    53              1                          9     
+    53              2                          9     
+    54              1                          9     
+    60              1                          5     
+    61              1                         20     
+    61              2                         20     
+    62              1                          5     
+    62              2                         40     
+    63              1                         40     
+    64              1                        160     
+    64              2                        160     
+    66              1                          5     
+    67              1                         20     
+    67              2                         20     
+    71              1                          1     
+    72              1                          1     
+    72              2                          1     
+    72              3                          1     
+    72              4                          1     
+    72              5                          1     
+    72              6                          1     
+    73              1                          1     
+    73              2                          1     
+    73              3                          1     
+    74              1                          1     
+    75              1                          2     
+    75              2                          2     
+    76              1                          1     
+    77              1                          1     
+    82              1                          1     
+    87              1                    ***0***     
+    89              1                          1     
+    93              1                          1     
+    97              1                          1     
+    99              1                    ***0***     
+    100             1                    ***0***     
+    101             1                          1     
+    104             1                          1     
+    107             1                          1     
+    110             1                          1     
+    112             1                    ***0***     
+    113             1                    ***0***     
+    114             1                          1     
+    118             1                          1     
+    119             1                          1     
+    129             1                          1     
+    130             1                          1     
+    132             1                          1     
+    132             2                          8     
+    133             1                          8     
+    134             1                          8     
+    135             1                          8     
+    137             1                    ***0***     
+    138             1                    ***0***     
+    140             1                          8     
+    142             1                          8     
+    145             1                          1     
+    146             1                          1     
+    148             1                    ***0***     
+    149             1                    ***0***     
+    151             1                          1     
+    155             1                          1     
+    157             1                    ***0***     
+    161             1                          4     
+    161             2                          4     
+    165             1                          1     
+    167             1                    ***0***     
+    168             1                    ***0***     
+    169             1                          1     
+    173             1                          1     
+    177             1                          1     
+    179             1                    ***0***     
+    180             1                    ***0***     
+    181             1                          1     
+    186             1                          1     
+    188             1                    ***0***     
+    189             1                    ***0***     
+    190             1                          1     
+    196             1                          1     
+    198             1                    ***0***     
+    199             1                    ***0***     
+    200             1                          1     
+    207             1                          1     
+    208             1                          1     
+    209             1                          1     
+    210             1                          1     
+    211             1                          1     
+    212             1                          1     
+    213             1                          1     
+    216             1                          1     
+    218             1                          1     
+    219             1                         48     
+    219             2                         48     
+    221             1                          1     
+    222             1                         48     
+    222             2                         48     
+    224             1                          1     
+    225             1                         48     
+    225             2                         48     
+    227             1                          1     
+    228             1                         48     
+    228             2                         48     
+    230             1                          1     
+    231             1                         48     
+    231             2                         48     
+    233             1                          1     
+    234             1                         48     
+    234             2                         48     
+    237             1                          1     
+    238             1                         10     
+    238             2                         10     
+    240             1                          1     
+    241             1                         10     
+    241             2                         10     
+    243             1                          1     
+    244             1                         10     
+    244             2                         10     
+    246             1                          1     
+    247             1                         10     
+    247             2                         10     
+    250             1                          1     
+    251             1                          1     
+    253             1                          1     
+    254             1                          5     
+    254             2                          5     
+    257             1                          1     
+    258             1                          1     
+    259             1                          1     
+    260             1                          1     
+    261             1                          1     
+    262             1                          1     
+    264             1                          1     
+    267             1                          1     
+    268             1                         48     
+    268             2                         48     
+    271             1                          1     
+    272             1                         48     
+    272             2                         48     
+    275             1                          1     
+    276             1                         48     
+    276             2                         48     
+    279             1                          1     
+    280             1                         48     
+    280             2                         48     
+    281             1                          1     
+    282             1                          1     
+    283             1                          1     
+    284             1                          1     
+    287             1                          1     
+    289             1                    ***0***     
+    292             1                          1     
+    296             1                          1     
+    297             1                    ***0***     
+    298             1                    ***0***     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        428        80       348    18.69%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_uart --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                       araddr[0-1]           0           0                                0.00 
+                                      araddr[4-11]           0           0                                0.00 
+                                     araddr[12-13]           0           1                               50.00 
+                                     araddr[14-29]           0           0                                0.00 
+                                        araddr[30]           0           1                               50.00 
+                                        araddr[31]           0           0                                0.00 
+                                       awaddr[0-1]           0           0                                0.00 
+                                      awaddr[4-11]           0           0                                0.00 
+                                     awaddr[12-13]           0           1                               50.00 
+                                     awaddr[14-29]           0           0                                0.00 
+                                        awaddr[30]           0           1                               50.00 
+                                        awaddr[31]           0           0                                0.00 
+                                        bresp[0-1]           0           0                                0.00 
+                                      errors[0-31]           0           0                                0.00 
+                                          rdata[6]           0           0                                0.00 
+                                       rdata[8-31]           0           0                                0.00 
+                                      read_data[0]           0           1                               50.00 
+                                      read_data[1]           1           0                               50.00 
+                                      read_data[2]           0           0                                0.00 
+                                      read_data[3]           1           0                               50.00 
+                                      read_data[4]           0           0                                0.00 
+                                      read_data[5]           1           0                               50.00 
+                                      read_data[6]           0           0                                0.00 
+                                      read_data[7]           1           0                               50.00 
+                                   read_data[8-31]           0           0                                0.00 
+                                        rresp[0-1]           0           0                                0.00 
+                                               rst           1           0                               50.00 
+                                       wdata[8-31]           0           0                                0.00 
+                                        wstrb[0-3]           0           1                               50.00 
+
+Total Node Count     =        214 
+Toggled Node Count   =         32 
+Untoggled Node Count =        182 
+
+Toggle Coverage      =      18.69% (80 of 428 bins)
+
+
+Total Coverage By Instance (filtered view): 65.44%
+

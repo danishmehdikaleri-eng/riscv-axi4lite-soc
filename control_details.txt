@@ -1,0 +1,374 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_control/dut
+=== Design Unit: work.control_unit
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        40        14        26    35.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_control/dut
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File control_unit.sv
+------------------------------------CASE Branch------------------------------------
+    41                                        11     Count coming in to CASE
+    43              1                          2     
+    61              1                          1     
+    77              1                          1     
+    85              1                          1     
+    91              1                          2     
+    102             1                          1     
+    108             1                          1     
+    116             1                          1     
+    121             1                          1     
+    128             1                    ***0***     
+    132             1                    ***0***     
+Branch totals: 9 hits of 11 branches = 81.81%
+
+------------------------------------CASE Branch------------------------------------
+    46                                         2     Count coming in to CASE
+    47              1                          1     
+    48              1                          1     
+    49              1                    ***0***     
+    50              1                    ***0***     
+    51              1                    ***0***     
+    52              1                    ***0***     
+    53              1                    ***0***     
+    54              1                    ***0***     
+    55              1                    ***0***     
+    56              1                    ***0***     
+    57              1                    ***0***     
+Branch totals: 2 hits of 11 branches = 18.18%
+
+------------------------------------CASE Branch------------------------------------
+    64                                         1     Count coming in to CASE
+    65              1                          1     
+    66              1                    ***0***     
+    67              1                    ***0***     
+    68              1                    ***0***     
+    69              1                    ***0***     
+    70              1                    ***0***     
+    71              1                    ***0***     
+    72              1                    ***0***     
+    73              1                    ***0***     
+Branch totals: 1 hit of 9 branches = 11.11%
+
+------------------------------------IF Branch------------------------------------
+    72                                   ***0***     Count coming in to IF
+    72              2                    ***0***     
+    72              3                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------CASE Branch------------------------------------
+    94                                         2     Count coming in to CASE
+    95              1                          1     
+    95              2                    ***0***     
+    96              1                          1     
+    96              2                    ***0***     
+    97              1                    ***0***     
+    97              2                    ***0***     
+    98              1                    ***0***     
+Branch totals: 2 hits of 7 branches = 28.57%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      63        44        19    69.84%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_control/dut --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File control_unit.sv
+    28              1                         11     
+    30              1                         11     
+    31              1                         11     
+    32              1                         11     
+    33              1                         11     
+    34              1                         11     
+    35              1                         11     
+    36              1                         11     
+    37              1                         11     
+    38              1                         11     
+    39              1                         11     
+    44              1                          2     
+    45              1                          2     
+    47              1                          1     
+    48              1                          1     
+    49              1                    ***0***     
+    50              1                    ***0***     
+    51              1                    ***0***     
+    52              1                    ***0***     
+    53              1                    ***0***     
+    54              1                    ***0***     
+    55              1                    ***0***     
+    56              1                    ***0***     
+    57              1                    ***0***     
+    62              1                          1     
+    63              1                          1     
+    65              1                          1     
+    66              1                    ***0***     
+    67              1                    ***0***     
+    68              1                    ***0***     
+    69              1                    ***0***     
+    70              1                    ***0***     
+    71              1                    ***0***     
+    72              1                    ***0***     
+    73              1                    ***0***     
+    78              1                          1     
+    79              1                          1     
+    80              1                          1     
+    81              1                          1     
+    82              1                          1     
+    86              1                          1     
+    87              1                          1     
+    88              1                          1     
+    92              1                          2     
+    93              1                          2     
+    95              1                          1     
+    96              1                          1     
+    97              1                    ***0***     
+    98              1                    ***0***     
+    103             1                          1     
+    104             1                          1     
+    105             1                          1     
+    109             1                          1     
+    110             1                          1     
+    111             1                          1     
+    112             1                          1     
+    113             1                          1     
+    117             1                          1     
+    118             1                          1     
+    122             1                          1     
+    123             1                          1     
+    124             1                          1     
+    125             1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         30        21         9    70.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_control/dut --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                            alu_op               ENUM type       Value       Count 
+                                                                   ALU_AND           0        0.00 
+                                                                    ALU_OR           0        0.00 
+                                                                   ALU_XOR           0        0.00 
+                                                                   ALU_SLL           0        0.00 
+                                                                   ALU_SRL           0        0.00 
+                                                                   ALU_SRA           0        0.00 
+                                                                   ALU_SLT           0        0.00 
+                                                                  ALU_SLTU           0        0.00 
+                                             auipc           0           1                               50.00 
+
+Total Node Count     =         20 
+Toggled Node Count   =         11 
+Untoggled Node Count =          9 
+
+Toggle Coverage      =      70.00% (21 of 30 bins)
+
+=================================================================================
+=== Instance: /tb_control
+=== Design Unit: work.tb_control
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_control
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_control.sv
+------------------------------------IF Branch------------------------------------
+    36                                        11     Count coming in to IF
+    36              1                    ***0***     
+    45              1                         11     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    95                                         1     Count coming in to IF
+    95              1                          1     
+    97              1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      11         0        11     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_control --
+
+  File tb_control.sv
+----------------Focused Condition View-------------------
+Line       36 Item    1  ((((((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)) || (jump !== exp_jump)) || (jalr !== exp_jalr)) || (auipc !== exp_auipc)) || (alu_op !== exp_alu_op))
+Condition totals: 0 of 10 input terms covered = 0.00%
+
+                       Input Term   Covered  Reason for no coverage   Hint
+                      -----------  --------  -----------------------  --------------
+    (reg_write !== exp_reg_write)         N  '_1' not hit             Hit '_1'
+        (alu_src !== exp_alu_src)         N  '_1' not hit             Hit '_1'
+      (mem_read !== exp_mem_read)         N  '_1' not hit             Hit '_1'
+    (mem_write !== exp_mem_write)         N  '_1' not hit             Hit '_1'
+  (result_src !== exp_result_src)         N  '_1' not hit             Hit '_1'
+          (branch !== exp_branch)         N  '_1' not hit             Hit '_1'
+              (jump !== exp_jump)         N  '_1' not hit             Hit '_1'
+              (jalr !== exp_jalr)         N  '_1' not hit             Hit '_1'
+            (auipc !== exp_auipc)         N  '_1' not hit             Hit '_1'
+          (alu_op !== exp_alu_op)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target                         Non-masking condition(s)      
+ ---------  ---------  --------------------               -------------------------     
+  Row   1:          1  (reg_write !== exp_reg_write)_0    (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(jalr !== exp_jalr) && ~(jump !== exp_jump) && ~(branch !== exp_branch) && ~(result_src !== exp_result_src) && ~(mem_write !== exp_mem_write) && ~(mem_read !== exp_mem_read) && ~(alu_src !== exp_alu_src))
+  Row   2:    ***0***  (reg_write !== exp_reg_write)_1    -                             
+  Row   3:          1  (alu_src !== exp_alu_src)_0        (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(jalr !== exp_jalr) && ~(jump !== exp_jump) && ~(branch !== exp_branch) && ~(result_src !== exp_result_src) && ~(mem_write !== exp_mem_write) && ~(mem_read !== exp_mem_read) && ~(reg_write !== exp_reg_write))
+  Row   4:    ***0***  (alu_src !== exp_alu_src)_1        ~(reg_write !== exp_reg_write)
+  Row   5:          1  (mem_read !== exp_mem_read)_0      (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(jalr !== exp_jalr) && ~(jump !== exp_jump) && ~(branch !== exp_branch) && ~(result_src !== exp_result_src) && ~(mem_write !== exp_mem_write) && ~((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)))
+  Row   6:    ***0***  (mem_read !== exp_mem_read)_1      ~((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src))
+  Row   7:          1  (mem_write !== exp_mem_write)_0    (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(jalr !== exp_jalr) && ~(jump !== exp_jump) && ~(branch !== exp_branch) && ~(result_src !== exp_result_src) && ~(((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)))
+  Row   8:    ***0***  (mem_write !== exp_mem_write)_1    ~(((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read))
+  Row   9:          1  (result_src !== exp_result_src)_0  (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(jalr !== exp_jalr) && ~(jump !== exp_jump) && ~(branch !== exp_branch) && ~((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)))
+ Row   10:    ***0***  (result_src !== exp_result_src)_1  ~((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write))
+ Row   11:          1  (branch !== exp_branch)_0          (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(jalr !== exp_jalr) && ~(jump !== exp_jump) && ~(((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)))
+ Row   12:    ***0***  (branch !== exp_branch)_1          ~(((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src))
+ Row   13:          1  (jump !== exp_jump)_0              (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(jalr !== exp_jalr) && ~((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)))
+ Row   14:    ***0***  (jump !== exp_jump)_1              ~((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch))
+ Row   15:          1  (jalr !== exp_jalr)_0              (~(alu_op !== exp_alu_op) && ~(auipc !== exp_auipc) && ~(((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)) || (jump !== exp_jump)))
+ Row   16:    ***0***  (jalr !== exp_jalr)_1              ~(((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)) || (jump !== exp_jump))
+ Row   17:          1  (auipc !== exp_auipc)_0            (~(alu_op !== exp_alu_op) && ~((((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)) || (jump !== exp_jump)) || (jalr !== exp_jalr)))
+ Row   18:    ***0***  (auipc !== exp_auipc)_1            ~((((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)) || (jump !== exp_jump)) || (jalr !== exp_jalr))
+ Row   19:          1  (alu_op !== exp_alu_op)_0          ~(((((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)) || (jump !== exp_jump)) || (jalr !== exp_jalr)) || (auipc !== exp_auipc))
+ Row   20:    ***0***  (alu_op !== exp_alu_op)_1          ~(((((((((reg_write !== exp_reg_write) || (alu_src !== exp_alu_src)) || (mem_read !== exp_mem_read)) || (mem_write !== exp_mem_write)) || (result_src !== exp_result_src)) || (branch !== exp_branch)) || (jump !== exp_jump)) || (jalr !== exp_jalr)) || (auipc !== exp_auipc))
+
+----------------Focused Condition View-------------------
+Line       95 Item    1  (errors == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  (errors == 0)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (errors == 0)_0       -                             
+  Row   2:          1  (errors == 0)_1       -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      51        48         3    94.11%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_control --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_control.sv
+    35              1                         11     
+    41              1                    ***0***     
+    44              1                    ***0***     
+    46              1                         11     
+    52              1                          1     
+    52              2                          1     
+    52              3                          1     
+    53              1                          1     
+    56              1                          1     
+    56              2                          1     
+    56              3                          1     
+    57              1                          1     
+    60              1                          1     
+    60              2                          1     
+    60              3                          1     
+    61              1                          1     
+    64              1                          1     
+    64              2                          1     
+    64              3                          1     
+    65              1                          1     
+    68              1                          1     
+    68              2                          1     
+    68              3                          1     
+    69              1                          1     
+    72              1                          1     
+    72              2                          1     
+    72              3                          1     
+    73              1                          1     
+    76              1                          1     
+    76              2                          1     
+    76              3                          1     
+    77              1                          1     
+    80              1                          1     
+    80              2                          1     
+    80              3                          1     
+    81              1                          1     
+    84              1                          1     
+    84              2                          1     
+    84              3                          1     
+    85              1                          1     
+    88              1                          1     
+    88              2                          1     
+    88              3                          1     
+    89              1                          1     
+    92              1                          1     
+    92              2                          1     
+    92              3                          1     
+    93              1                          1     
+    96              1                          1     
+    98              1                    ***0***     
+    101             1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        128        37        91    28.90%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_control --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                            alu_op               ENUM type       Value       Count 
+                                                                   ALU_AND           0        0.00 
+                                                                    ALU_OR           0        0.00 
+                                                                   ALU_XOR           0        0.00 
+                                                                   ALU_SLL           0        0.00 
+                                                                   ALU_SRL           0        0.00 
+                                                                   ALU_SRA           0        0.00 
+                                                                  ALU_SLTU           0        0.00 
+                                             auipc           0           1                               50.00 
+                                      errors[0-31]           0           0                                0.00 
+                                         funct3[0]           0           0                                0.00 
+                                       funct7[0-4]           0           0                                0.00 
+                                         funct7[6]           0           0                                0.00 
+                                       opcode[0-1]           0           0                                0.00 
+                                         opcode[2]           0           1                               50.00 
+
+Total Node Count     =         69 
+Toggled Node Count   =         19 
+Untoggled Node Count =         50 
+
+Toggle Coverage      =      28.90% (37 of 128 bins)
+
+
+Total Coverage By Instance (filtered view): 38.44%
+
